@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayne's Hotel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            margin: 0 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #333;
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .main-img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .hotel-info {
+            text-align: center;
+        }
+        .round {
+            border-radius: 50px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header style="background-color: rgb(28, 147, 212);">
+        <h1>Welcome to Wayne's Hotel</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Rooms</a>
+        <a href="#">Facilities</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <img src="Hotel.jpg" alt="hotel image" class="main-img">
+
+        <div class="hotel-info">
+            <h1>Experience Luxury Stay with Us</h1>
+            <p>Welcome to Wayne's Hotel, where luxury meets comfort. Our hotel offers top-notch accommodations and excellent services to make your stay memorable.</p>
+            <p>Explore our rooms, enjoy our facilities, and feel free to contact us for any inquiries or bookings.</p>
+        </div>
+    </div>
+    <div class="prices">
+        <h1><center>Prices</center></h1>
+
+        <table bgcolor="black" width="1050" align="center">
+            <tr bgcolor="grey">
+                <th width="150">Deluxe Beachfront Bungalow</th>
+                <th width="150">Mediterranean Bungalow</th>
+                <th width="150">Deluxe Suite</th>
+                <th width="150">Junior Suite</th>
+                <th width="150">Mediterranean Suite</th>
+                <th width="150">Executive Suite</th>
+                <th width="150">Island Suite</th>
+
+            </tr>
+            <tr bgcolor="lightgrey" align="center">
+                <td>507$</td>
+                <td>750$</td>
+                <td>800$</td>
+                <td>1200$</td>
+                <td>1420$</td>
+                <td>1600$</td>
+                <td>1750$</td>
+            </tr>
+        </table>
+
+
+    </div>
+    <div class="featured-rooms">
+        <h2><center>featured rooms</center></h2>
+        <div class="room">
+            <img src="room1.webp" alt="Room 1" class="round">
+            <h2><center>Deluxe Beachfront Bungalow</center></h2>
+        </div>
+        <div class="room">
+            <img src="room2.webp" alt="Room 2" class="round">
+            <h2><center>Mediterranean Bungalow</center></h2>
+        </div>
+    </div>
+    <div class="hotel-info">
+        for more info, please visit
+        <a href="https://lagonissiresort.reserve-online.net/?checkin=2024-04-21&adults=2&children=0&infants=0&_gl=1*1f37uxo*_ga*MTAzOTgyMjE5MS4xNzEzNTUzODY2*_ga_BM163BGZC6*MTcxMzU1Mzg2Ni4xLjEuMTcxMzU1Mzg3Ni41MC4wLjA.&rooms=1&nights=1" target="_blank">
+        here
+    </a>
+    </div>
+</body>
+</html>
